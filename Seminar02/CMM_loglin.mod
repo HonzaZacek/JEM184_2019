@@ -8,7 +8,7 @@
 
 %% DESCRIPTION
 % This file implements the basic Classical Monetary Model (CMM) presented 
-% in Galí, J. (2015): Monetary Policy, Inflation, and the Business Cycle, 
+% in GalÃ­, J. (2015): Monetary Policy, Inflation, and the Business Cycle, 
 % Princeton University Press, 2nd Edition, Chapter 2.
 %
 % This .mod file implements log-linearised 1st order conditions. The impulse 
@@ -65,7 +65,7 @@ siggma_a      ${\sigma_{a}}$       (long_name='Standard deviation - productivity
 siggma_z      ${\sigma_{z}}$       (long_name='Standard deviation - preference shifter') 
 siggma_nu     ${\sigma_{\nu}}$     (long_name='Standard deviation - monetary policy shock') 
 
-pie_ss
+pie_ss        ${\bar{\pi}}$        (long_name='Steady state - inflation') 
 ;
 
 
